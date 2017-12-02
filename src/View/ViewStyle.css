@@ -1,0 +1,68 @@
+.root{
+    -fx-background-color: #f8f8f8;
+}
+
+Button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: #5f94ff;
+
+}
+
+Button:hover{
+    -fx-background-color: #237fb4;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.menu-button {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+
+.menu-button .label {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+}
+.menu-item .label {
+    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+
+}
+
+.menu-item:focused .label {
+    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;
+    -fx-text-fill: #3a3a3a;
+    -fx-text-fill: white;
+
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #3a3a3a;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: white;
+
+}
+
+.menu-bar {
+    -fx-text-fill: white;
+    -fx-background-color: #3b3b3b;
+
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em;
+    -fx-margin: 2em 2em 2em 2em;
+}
+#mazeDisplayer {
+    -fx-background-color: #3a3a3a;
+}
+

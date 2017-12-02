@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane onKeyPressed="#About" prefHeight="371.0" prefWidth="622.0" style="-fx-background-color: white; -fx-border-color: #237FB4; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <center>
+        <Pane prefHeight="49.0" prefWidth="497.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+         <children>
+            <Label layoutY="-77.0" prefHeight="371.0" prefWidth="527.0" text="Welcom to MazeApp. This game you can play with mazes and try to solve them. Press the Generate Maze button to create a new maze And move the bunny with the keyboard arrows until you get to the carrot. The default size of the maze is 20X20 But you can change it by insert different numbers in the fields. If you want to see the solution for the maze you can clickthe Solve Maze button. If you want to generate a new maze – change the numbers in the fields and press Generate Maze or press New in the File menu. You can save a maze by pressing Save in the File menu and load it later with the Load option in the File menu" wrapText="true" />
+            </children>
+        </Pane>
+    </center>
+   <top>
+      <Pane prefHeight="45.0" prefWidth="1029.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="41.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="56.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Pane prefHeight="105.0" prefWidth="644.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

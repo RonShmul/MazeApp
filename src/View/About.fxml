@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane onKeyPressed="#About" prefHeight="269.0" prefWidth="628.0" style="-fx-background-color: #ffffff; -fx-border-color: #5f94ff; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+    <center>
+        <Pane prefHeight="49.0" prefWidth="497.0" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+         <children>
+            <VBox alignment="TOP_CENTER" layoutY="-26.0" nodeOrientation="LEFT_TO_RIGHT" prefWidth="526.0">
+               <children>
+                  <Label prefHeight="36.0" prefWidth="517.0" text="MazeApp is a Java application created by Sivan Rejensky and Ron Shmulinson" wrapText="true" />
+                  <Label text="as a project of programming course at Ben Gurion University." />
+                  <Label text="The maze application is multi-threading and involves:" />
+                  <Label prefHeight="27.0" prefWidth="371.0" text="Maze generation algorithms such as Prim’s algorithm," />
+                  <Label text="and searching algorithm to solve the maze" />
+                  <Label text="such as Breadth First Search." />
+                  <Label text="Ron and Sivan are students at Ben Gurion University" />
+                  <Label text="In the Software And Information System engineering department" />
+                  <Label text="Finish second year." />
+               </children>
+            </VBox>
+            </children>
+        </Pane>
+    </center>
+   <top>
+      <Pane prefHeight="45.0" prefWidth="1029.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="41.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="56.0" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Pane prefHeight="35.0" prefWidth="628.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
